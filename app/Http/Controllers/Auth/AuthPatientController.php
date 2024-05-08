@@ -10,17 +10,20 @@ class AuthPatientController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function RegisterPatient()
     {
         //
+        return view('Auth.RegisterPatient');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function LoginPatient()
     {
         //
+        return view('Auth.LoginPatient');
+
     }
 
     /**

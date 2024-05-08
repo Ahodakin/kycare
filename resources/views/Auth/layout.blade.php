@@ -40,6 +40,8 @@
     <!--Favicon-->
     <link rel="icon" href="{{asset('Frontend/images/favicon.png')}}" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     </head>
 
     <body>
@@ -48,7 +50,7 @@
 
             @yield('content')
 
-            @include('Layouts .footer')
+
 
             <!-- scroll-to-top -->
             <div id="back-to-top" class="back-to-top">

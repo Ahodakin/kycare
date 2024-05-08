@@ -10,17 +10,19 @@ class AuthPraticienController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function RegisterPraticien()
     {
         //
+        return view('Auth.RegisterPraticien');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function Login()
     {
         //
+        return view('Auth.Login');
     }
 
     /**

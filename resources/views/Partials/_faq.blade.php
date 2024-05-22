@@ -61,52 +61,52 @@
         </div>
         <div class="col-lg-6">
           <div class="contact-area pl-0 pl-lg-5">
-    <div class="section-title">
-        <h3>Contactez-nous</h3>
-    </div>
-    <form name="contact_form" class="default-form contact-form" action="!#" method="post">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <input class="form-control" type="text" name="Name" placeholder="Nom" required="">
+            <div class="section-title">
+                <h3>Contactez-nous</h3>
+            </div>
+            <form name="contact_form" class="default-form contact-form" action="!#" method="post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" type="text" name="Name" placeholder="Nom" required="">
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" name="subject">
+                      <option>Ville</option>
+                      <option>Abidjan</option>
+                      <option>Daloa</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" type="text" name="Phone" placeholder="Prénom" required="">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="number" name="Phone" placeholder="Téléphone" required="">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input class="form-control" type="email" name="email" placeholder="Email" required="">
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" name="subject">
+                      <option>Je souhaite</option>
+                      <option></option>
+                      <option></option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="form_message" placeholder="Message" required=""></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                    <button type="submit" class="btn-style-one">Contacter les équipes avec</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="form-group">
-            <select class="form-control" name="subject">
-              <option>Ville</option>
-              <option>Abidjan</option>
-              <option>Daloa</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <input class="form-control" type="text" name="Phone" placeholder="Prénom" required="">
-          </div>
-          <div class="form-group">
-            <input class="form-control" type="number" name="Phone" placeholder="Téléphone" required="">
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="form-group">
-            <input class="form-control" type="email" name="email" placeholder="Email" required="">
-          </div>
-          <div class="form-group">
-            <select class="form-control" name="subject">
-              <option>Je souhaite</option>
-              <option></option>
-              <option></option>
-            </select>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="form_message" placeholder="Message" required=""></textarea>
-          </div>
-          <div class="form-group text-center">
-            <button type="submit" class="btn-style-one">submit now</button>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
         </div>
       </div>                    
     </div>

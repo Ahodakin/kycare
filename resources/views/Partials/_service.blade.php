@@ -1,126 +1,26 @@
-
-
-
-
-
-<!--Main Header-->
-
-<!--End Main Header -->
-
-<!--Page Title-->
-<section class="page-title text-center" style="background-image:url(Frontend/images/background/3.jpg);">
-    <div class="container">
-        <div class="title-text">
-            <h1>service</h1>
-            <ul class="title-menu clearfix">
-                <li>
-                    <a href="index.html">home &nbsp;/</a>
-                </li>
-                <li>service</li>
-            </ul>
-        </div>
-    </div>
-</section>
-<!--End Page Title-->
-
 <section class="service-overview section">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-5 mb-lg-0">
         <div class="content-block">
-          <h2>Clinical And <br>Medical Education</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius optio repellendus quasi nisi vitae
-            laboriosam explicabo eligendi sapiente in.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, dolorum esse tempora id architecto
-            laboriosam.
-          </p>
+          <h2>Services efficaces pour votre santé</h2>
+          <p>Chez KYCARE, nous vous offrons des fonctionnalités avancées pour gérer efficacement votre santé et vos rendez-vous médicaux.</p>
           <ul>
-            <li><i class="fas fa-caret-right"></i>vitae laboriosam explicabo eligendi sapiente</li>
-            <li><i class="fas fa-caret-right"></i>consectetur adipisicing elit. Beatae</li>
-            <li><i class="fas fa-caret-right"></i>dolorum esse tempora id architecto</li>
-            <li><i class="fas fa-caret-right"></i>optio repellendus quasi nisi vitae</li>
+            <li><i class="fas fa-check"></i> Accès à vos documents et carnets de santé en ligne</li>
+            <li><i class="fas fa-check"></i> Connexion avec une vaste communauté de praticiens</li>
+            <li><i class="fas fa-check"></i> Gain de temps et confort assuré</li>
+            <li><i class="fas fa-check"></i> Interface utilisateur facile d'accès et intuitive</li>
           </ul>
-          <a href="appointment.html" class="btn btn-style-one">Appoint</a>
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="accordion-section">
-          <div class="accordion-holder">
-            <div class="accordion" id="accordionGroup" role="tablist" aria-multiselectable="true">
-              <div class="card">
-                <div class="card-header" role="tab" id="headingOne">
-                  <h4 class="card-title">
-                    <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Why Should I choose Medical Health
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionGroup">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                    officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                    vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                    haven't
-                    heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="headingTwo">
-                  <h4 class="card-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo"
-                      aria-expanded="false" aria-controls="collapseTwo">
-                      What are the Centre’s visiting hours?
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionGroup">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                    officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                    vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                    haven't
-                    heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="headingThree">
-                  <h4 class="card-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree"
-                      aria-expanded="false" aria-controls="collapseThree">
-                      How many visitors are allowed?
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionGroup">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                    officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                    tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                    helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-                    vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                    haven't
-                    heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <img src="Frontend/images/11.jpg" alt="Service Overview" class="img-fluid">
       </div>
     </div>
   </div>
+  <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <path d="M0,192L48,170.7C96,149,192,107,288,106.7C384,107,480,149,576,165.3C672,181,768,171,864,186.7C960,203,1056,245,1152,261.3C1248,277,1344,267,1392,261.3L1440,256L1440,320L0,320Z" fill="#48bdc5"></path>
+  </svg>
 </section>
 
 <section class="section pt-0">
@@ -132,40 +32,32 @@
       <div class="col-lg-6">
         <div class="contents">
           <div class="section-title">
-            <h3>pulmonary</h3>
+            <h3>Un service efficace et complet</h3>
           </div>
           <div class="text">
-            <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic
-              is added.
-              then a dental prosthetic is added.then a dental pros- thetic is added.</p>
-            <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic
-              is added.
-              then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+            <p>Nous offrons une gamme complète de services médicaux pour répondre à tous vos besoins de santé. Notre plateforme de prise de rendez-vous en ligne vous permet de gérer facilement vos consultations et d'accéder rapidement à des soins de qualité.</p>
+            <p>Profitez de notre interface conviviale pour planifier des rendez-vous, consulter vos documents médicaux, et accéder à une communauté de praticiens qualifiés.</p>
           </div>
           <ul class="content-list">
             <li>
-              <i class="far fa-check-circle"></i>Whitening is among the most popular dental</li>
+              <i class="far fa-check-circle"></i>Consultations générales et spécialisées</li>
             <li>
-              <i class="far fa-check-circle"></i>Teeth cleaning is part of oral hygiene and involves</li>
+              <i class="far fa-check-circle"></i>Examens médicaux et analyses en laboratoire</li>
             <li>
-              <i class="far fa-check-circle"></i>Teeth cleaning is part of oral hygiene and involves</li>
+              <i class="far fa-check-circle"></i>Soins à domicile disponibles</li>
           </ul>
-          <a href="service.html" class="btn btn-style-one">Read more</a>
+          <a href="service.html" class="btn btn-style-one">En savoir plus</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!--Service Section-->
 <section class="service-section bg-gray section">
   <div class="container">
     <div class="section-title text-center">
-      <h3>Provided
-        <span>Services</span>
-      </h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. qui suscipit atque <br>
-        fugiat officia corporis rerum eaque neque totam animi, sapiente culpa. Architecto!</p>
+      <h3>Nos services médicaux</h3>
+      <p>Explorez notre gamme complète de services médicaux disponibles sur notre plateforme de prise de rendez-vous en ligne. Nous nous engageons à fournir des soins de santé de qualité et accessibles.</p>
     </div>
     <div class="row">
       <div class="col-lg-12">
@@ -174,15 +66,15 @@
             <div class="inner-box">
               <div class="img_holder">
                 <a href="service.html">
-                  <img loading="lazy" src="Frontend/images/gallery/1.jpg" alt="images" class="img-fluid">
+                  <img loading="lazy" src="Frontend/images/gallery/7.jpg" alt="images" class="img-fluid">
                 </a>
               </div>
               <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
+                <span></span>
                 <a href="service.html">
-                  <h6>Dormitory</h6>
+                  <h6>Consultations Générales</h6>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                <p>Prenez rendez-vous avec des médecins généralistes pour des consultations médicales de routine et des soins de santé primaires.</p>
               </div>
             </div>
           </div>
@@ -190,15 +82,15 @@
             <div class="inner-box">
               <div class="img_holder">
                 <a href="service.html">
-                  <img loading="lazy" src="Frontend/images/gallery/2.jpg" alt="images" class="img-fluid">
+                  <img loading="lazy" src="Frontend/images/gallery/0.jpg" alt="images" class="img-fluid">
                 </a>
               </div>
               <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
+                <span></span>
                 <a href="service.html">
-                  <h6>Germs Protection</h6>
+                  <h6>Consultations Spécialisées</h6>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                <p>Rencontrez des médecins spécialisés dans divers domaines, y compris la pédiatrie, la gynécologie, la cardiologie et bien d'autres encore.</p>
               </div>
             </div>
           </div>
@@ -206,15 +98,15 @@
             <div class="inner-box">
               <div class="img_holder">
                 <a href="service.html">
-                  <img loading="lazy" src="Frontend/images/gallery/3.jpg" alt="images" class="img-fluid">
+                  <img loading="lazy" src="Frontend/images/gallery/4.jpeg" alt="images" class="img-fluid">
                 </a>
               </div>
               <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
+                <span></span>
                 <a href="service.html">
-                  <h6>Psycology</h6>
+                  <h6>Examens Médicaux</h6>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                <p>Programmez des examens médicaux et des analyses en laboratoire pour un diagnostic précis et un suivi médical adéquat de votre santé.</p>
               </div>
             </div>
           </div>
@@ -222,47 +114,15 @@
             <div class="inner-box">
               <div class="img_holder">
                 <a href="service.html">
-                  <img loading="lazy" src="Frontend/images/gallery/1.jpg" alt="images" class="img-fluid">
+                  <img loading="lazy" src="Frontend/images/gallery/1.jpeg" alt="images" class="img-fluid">
                 </a>
               </div>
               <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
+                <span></span>
                 <a href="service.html">
-                  <h6>Dormitory</h6>
+                  <h6>Soins à Domicile</h6>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="Frontend/images/gallery/2.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Germs Protection</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="inner-box">
-              <div class="img_holder">
-                <a href="service.html">
-                  <img loading="lazy" src="Frontend/images/gallery/3.jpg" alt="images" class="img-fluid">
-                </a>
-              </div>
-              <div class="image-content text-center">
-                <span>Better Service At Low Cost</span>
-                <a href="service.html">
-                  <h6>Psycology</h6>
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                <p>Bénéficiez de consultations médicales à domicile pour les patients ayant des besoins spécifiques ou des difficultés à se déplacer vers un établissement de santé.</p>
               </div>
             </div>
           </div>
@@ -270,49 +130,90 @@
       </div>
     </div>
   </div>
+
 </section>
-<!--End Service Section-->
 
-<!--footer-main-->
+<section class="partners-section section">
 
-<!--End footer-main-->
+  <style>
+      .partners-section {
+      padding: 60px 0;
+      }
 
-<!-- scroll-to-top -->
-<div id="back-to-top" class="back-to-top">
-  <i class="fa fa-angle-up"></i>
-</div>
+    .section-title {
+      margin-bottom: 40px;
+    }
 
-</div>
-<!--End pagewrapper-->
+    .section-title h3 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
 
+    .section-title h3 span {
+      color: #48bdc5;
+    }
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target=".header-top">
-  <span class="icon fa fa-angle-up"></span>
-</div>
+    .section-title p {
+      font-size: 18px;
+      color: #6c757d;
+    }
 
+    .partner-logo {
+      margin: 20px 0;
+      text-align: center;
+    }
 
-<!-- jquery -->
-<script src="plugins/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="plugins/bootstrap/bootstrap.min.js"></script>
-<!-- Slick Slider -->
-<script src="plugins/slick/slick.min.js"></script>
-<script src="plugins/slick/slick-animation.min.js"></script>
-<!-- FancyBox -->
-<script src="plugins/fancybox/jquery.fancybox.min.js" defer></script>
-<!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
-<script src="plugins/google-map/gmap.js" defer></script>
+    .partner-logo img {
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s;
+    }
 
-<!-- jquery-ui -->
-<script src="plugins/jquery-ui/jquery-ui.js" defer></script>
-<!-- timePicker -->
-<script src="plugins/timePicker/timePicker.js" defer></script>
+    .partner-logo img:hover {
+      transform: scale(1.1);
+    }
 
-<!-- script js -->
-<script src="js/script.js"></script>
-</body>
-
-</html>
-
+  </style>
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>Nos
+        <span>Partenaires</span>
+      </h3>
+      <p>Nous collaborons avec les meilleurs pour vous offrir des services de qualité.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="partner-logo">
+          <img src="{{('Frontend/images/kycare4.jpg')}}" alt="Partner 1" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="partner-logo">
+          <img src="{{('Frontend/images/kycare4.jpg')}}" alt="Partner 2" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="partner-logo">
+          <img src="{{('Frontend/images/kycare4.jpg')}}" alt="Partner 3" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="partner-logo">
+          <img src="{{('Frontend/images/kycare4.jpg')}}" alt="Partner 4" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="partner-logo">
+          <img src="{{('Frontend/images/kycare4.jpg')}}" alt="Partner 5" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="partner-logo">
+          <img src="{{('Frontend/images/kycare4.jpg')}}" alt="Partner 6" class="img-fluid">
+        </div>
+      </div>
+      <!-- Ajoutez plus de logos de partenaires selon vos besoins -->
+    </div>
+  </div>
+</section>

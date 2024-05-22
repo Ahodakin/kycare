@@ -1,151 +1,141 @@
-
-@extends('Auth.layout')
+@extends('Layouts.app')
 
 @section('title', 'Inscription Praticien')
 
 @section('content')
 
-@include('Auth.Nav')
-<style>
-    body {
-        background-image: url('Frontend/images/slider/slider-bg-1.jpg');
-        background-position: center;
-        height: 100vh;
-        margin: 0;
-        background-repeat: no-repeat;
+@include('Layouts.header')
 
-        /* Supprimer les marges par défaut du corps */
-    }
-
-    .section-container {
-        display: flex;
-        justify-content: center;
-        /* Centrer horizontalement */
-
-        /* Hauteur de la fenêtre visible */
-    }
-
-    .left-side,
-    .right-side {
-        width: 50%;
-        /* Chaque côté occupe 50% de la largeur */
-        color: white;
-        opacity: 0.9;
-        /* Diminuer l'opacité */
-        text-align: center;
-    }
-
-    .welcome-section {
-        padding-top: 100px;
-        background-color: #48bdc5;
-        color: white;
-        opacity: 0.9;
-        /* Diminuer l'opacité */
+<section class="section contact">
+    <style>
+          body {
+            background-color: #f5f5f5;
 
     }
-
-
-    /* Style du bouton de connexion */
-    .btn-connexion {
-        background-color: white;
-        color: #48bdc5;
-        opacity: 1;
-    }
-
-    .btn-connexion:hover {
-        background-color: #48bdc5;
-        color: white;
-        opacity: 1;
-    }
-
-    .no-border {
-        border: none;
-    }
-
-    .my-custom-color {
-        background-color: #48bdc5;
-        color: white;
-    }
-
-    .card-title {
-        color: black;
-    }
-
-</style>
-
-<div class="container mt-5">
-    <div class=" row section-container">
-        <!-- Section pour le texte de bienvenue et le bouton de connexion -->
-        <div class="col-md-6  welcome-section">
-            <div class="text-center mt-5">
-                <h2>Heureux de vous revoir</h2>
-                <a href="{{route('Login')}}" class="btn btn-connexion mt-3">Connexion</a>
+    </style>
+    <!-- container start -->
+    <div class="container" style="background-color: #fff;">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 d-flex align-items-center justify-content-center" style="background-color: #48bdc5; padding: 20px; height: 105vh;">
+            <!-- Mot de bienvenue -->
+            <div class="welcome-message text-center">
+                <h2>Bienvenue sur notre plateforme !</h2>
+                <p>Nous sommes ravis de vous accueillir. Prenez rendez-vous en ligne en toute simplicité pour vos consultations médicales, services de bien-être et bien plus encore.</p>
             </div>
         </div>
-        <!-- Section pour le formulaire d'inscription -->
-        <div class="right-side">
-            <div class="  card inscription-section no-border">
-                <!-- Ajout de la classe inscription-section -->
-
-                <div class="card-body">
-                    <h2 class="card-title text-center">Inscription Praticiens</h2>
-
-                    <form>
-                        <!-- Champs du formulaire -->
-
-
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Nom" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" id="email" name="email" class="form-control" placeholder="Identification unique" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe" required>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="email" id="confirm_password" name="confirm_password" class="form-control" placeholder="Confirmer le password" required>
-                        </div>
-
-                        <div class="form-group">
-                            <select id="specialite" name="specialite" class="form-control" required>
-                                <option value="" disabled selected>Choisissez votre spécialité</option>
-                                <option value="Cardiologie">Cardiologie</option>
-                                <option value="Dermatologie">Dermatologie</option>
-                                <option value="Endocrinologie">Endocrinologie</option>
-                                <option value="Gastro-entérologie">Gastro-entérologie</option>
-                                <option value="Gynécologie">Gynécologie</option>
-                                <option value="Hématologie">Hématologie</option>
-                                <option value="Néphrologie">Néphrologie</option>
-                                <option value="Neurologie">Neurologie</option>
-                                <option value="Ophtalmologie">Ophtalmologie</option>
-                                <option value="Oto-rhino-laryngologie (ORL)">Oto-rhino-laryngologie (ORL)</option>
-                                <option value="Pédiatrie">Pédiatrie</option>
-                                <option value="Psychiatrie">Psychiatrie</option>
-                                <option value="Radiologie">Radiologie</option>
-                                <option value="Rhumatologie">Rhumatologie</option>
-                                <option value="Urologie">Urologie</option>
-                                <!-- Ajoutez d'autres spécialités au besoin -->
-                            </select>
-                        </div>
-                                                
-
-                        <div class="form-group">
-                            <input type="text" id="phone_number" name="phone_number" class="form-control" placeholder="Numéro de téléphone" required>
-                        </div>
-
-                        <button type="submit" class="btn  btn-block my-custom-color">S'inscrire</button>
-                    </form>
-                </div>
+          
+        <div class="col-lg-8 col-md-7">
+            <div class="text-center mx-auto">
+                <h2 style="color: #48bdc5;">Créez votre compte KYcare</h2>
+                <p>Prenez soin de bien remplir chaque champ ci-dessous.</p><br>
             </div>
+            
+          <div class="contact-form">
+            <!-- contact form start -->
+            <h3> Vos informations </h3><br>
+            <form action="!#" class="row">
+                
+              <!-- name -->
+              {{-- <h5>Vos informations</h5> --}}
+              
+              <div class="col-lg-6">
+                <input type="text" name="name" class="form-control main" placeholder="Nom" required>
+              </div>
+              <!-- email -->
+              <div class="col-lg-6">
+                <input type="text" class="form-control main" placeholder="Prénom" required>
+              </div>
+              <!-- phone -->
+       
+              <div class="col-lg-12">
+                <input type="text" id="phone_number" name="phone_number" class="form-control main" placeholder="Numéro de téléphone" required>
+              </div>
+
+              <div class="col-lg-6">
+                <select class="form-control main" name="subject" id="subject">
+                    <option value="" disabled selected>Être vous un ?</option>
+                    <option>Patient</option>
+                    <option>Professionnel</option>
+                </select>
+              </div>
+
+              <div class="col-lg-6">
+                <input type="date" id="date" name="date" class="form-control main" placeholder="Date de naissance" required>
+              </div>
+
+              <div class="col-lg-6" id="identification_unique">
+                <input type="text" name="identification_unique" class="form-control main" placeholder="Identification unique" required>
+              </div>
+
+              <div class="col-lg-6" id="specialite">
+                <select name="specialite" class="form-control main" required>
+                    <option value="" disabled selected>Choisissez votre spécialité</option>
+                    <option value="Cardiologie">Cardiologie</option>
+                    <option value="Dermatologie">Dermatologie</option>
+                    <option value="Endocrinologie">Endocrinologie</option>
+                    <option value="Gastro-entérologie">Gastro-entérologie</option>
+                    <option value="Gynécologie">Gynécologie</option>
+                    <option value="Hématologie">Hématologie</option>
+                    <option value="Néphrologie">Néphrologie</option>
+                    <option value="Neurologie">Neurologie</option>
+                    <option value="Ophtalmologie">Ophtalmologie</option>
+                    <option value="Oto-rhino-laryngologie (ORL)">Oto-rhino-laryngologie (ORL)</option>
+                    <option value="Pédiatrie">Pédiatrie</option>
+                    <option value="Psychiatrie">Psychiatrie</option>
+                    <option value="Radiologie">Radiologie</option>
+                    <option value="Rhumatologie">Rhumatologie</option>
+                    <option value="Urologie">Urologie</option>
+                    <!-- Ajoutez d'autres spécialités au besoin -->
+                </select>
+              </div>
+
+                <h3 style="margin-left: 15px;"> Votre compte </h3> <br>
+
+              <br><div class="col-lg-12">
+                <input type="email" class="form-control main" placeholder="Email" required>
+              </div>
+
+              <div class="col-lg-12">
+                <input type="password" id="password" name="password" class="form-control main" placeholder="Mot de passe" required>    
+              </div>
+
+              <div class="col-lg-12">
+                <input type="password" id="confirm_password" name="confirm_password" class="form-control main" placeholder="Confirmer le password" required>
+              </div>
+             
+
+              <!-- submit button -->
+              <div class="col-md-12 text-right">
+                <button class="btn btn-style-one" type="submit">Créer un compte</button>
+              </div>
+            </form><br>
+            <!-- contact form end -->
+          </div>
         </div>
+      </div>
     </div>
-</div>
+    <!-- container end -->
+    <script>
+        // Fonction pour masquer ou afficher les champs en fonction de la sélection
+        function toggleFields() {
+            var subject = document.getElementById("subject");
+            var specialite = document.getElementById("specialite");
+            var identificationUnique = document.getElementById("identification_unique");
+    
+            if (subject.value === "Patient") {
+                specialite.style.display = "none";
+                identificationUnique.style.display = "none";
+            } else {
+                specialite.style.display = "block";
+                identificationUnique.style.display = "block";
+            }
+        }
+    
+        // Ajouter un événement de changement à la sélection
+        document.getElementById("subject").addEventListener("change", toggleFields);
+    
+        // Appeler la fonction pour afficher les champs correctement au chargement de la page
+        toggleFields();
+    </script>
+</section>
 @endsection

@@ -1,11 +1,11 @@
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url({{ asset('Frontend/images/background/3.jpg')}});">
+<section class="page-title text-center" style="background-image:url({{ asset('Frontend/images/about/2.jpg')}});">
     <div class="container">
         <div class="title-text">
             <h1>{{ $title }}</h1>
             <ul class="title-menu clearfix">
                 <li>
-                    <a href="index.html">Accueil &nbsp;/</a>
+                    <a href="{{('/')}}">Accueil &nbsp;/</a>
                 </li>
                 <li>{{ $title }}</li>
             </ul>

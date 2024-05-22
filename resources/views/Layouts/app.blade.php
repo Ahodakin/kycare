@@ -8,14 +8,16 @@
     <title>@yield('title')</title>
 
     <!-- ** Mobile Specific Metas ** -->
+    <!-- ** Mobile Specific Metas ** -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Medical HTML Template">
+    <meta name="description" content="KYcare - Plateforme de soins médicaux en ligne">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <meta name="author" content="Themefisher">
-    <meta name="generator" content="Themefisher Medical HTML Template v1.0">
+    <meta name="author" content="KYcare">
+    <meta name="generator" content="KYcare">
 
     <!-- theme meta -->
-    <meta name="theme-name" content="medic" />
+    <meta name="theme-name" content="kycare" />
+
     
     <!-- ** Plugins Needed for the Project ** -->
     <!-- bootstrap -->
@@ -38,7 +40,7 @@
     <link href="{{asset('Frontend/css/style.css')}}" rel="stylesheet">
     
     <!--Favicon-->
-    <link rel="icon" href="{{asset('Frontend/images/favicon.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('Frontend/images/fav.jpeg') }}" type="image/jpeg">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 

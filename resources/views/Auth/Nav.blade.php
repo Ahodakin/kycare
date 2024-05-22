@@ -54,7 +54,7 @@
         </button>
         <div class="logo">
             <a href="{{route('index')}}">
-                <img loading="lazy" class="img-fluid" src="Frontend/images/logo.png" alt="logo">
+                <img loading="lazy" class="img-fluid" src="Frontend/images/kycare4.jpg" alt="logo" style="width: 100px;">
             </a>
         </div>
     </div>

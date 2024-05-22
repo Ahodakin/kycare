@@ -1,247 +1,220 @@
-<!-- Our Story -->
+{{-- <div class="trait-horizontal"></div> --}}
 <section class="story">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <img loading="lazy" src="{{asset('Frontend/images/services/service-one.jpg')}}" class="responsive" alt="story">
-        </div>
-        <div class="col-lg-6">
-          <div class="story-content">
-            <h2>Our Story</h2>
-            <h5 class="tagline">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, minima. Nemo impedit fuga nostrum expedita sint dicta ullam quam et harum velit saepe"</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus totam ducimus est vero, officiis,
-                placeat optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam nesciunt fugit optio
-                illum aut. consectetur adipisicing elit. Neque assumenda, est quam perferendis
-                expedita autem?</p>
-              <h6>Mission</h6>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nihil dolorum beatae consequatur mollitia
-                iure?</p>
-              <h6>Vision</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur adipisci, voluptatum
-                dolores nostrum omnis.</p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img loading="lazy" src="{{asset('Frontend/images/about/5.jpg')}}" class="responsive" alt="story">
       </div>
+      <div class="col-lg-6">
+        <div class="story-content">
+            <h2>Notre histoire</h2>
+            <h5 class="tagline">"Kycare, votre portail vers des soins de santé accessibles et de qualité."</h5>
+            <p>Kycare a été fondé avec la mission de rendre l'accès aux soins de santé plus facile, plus pratique et plus transparent que jamais. Notre plateforme innovante relie les patients aux professionnels de la santé de manière rapide et efficace, leur permettant de planifier et de gérer leurs rendez-vous médicaux en ligne.</p>
+            <h6>Notre mission</h6>
+            <p>Notre mission est de fournir une expérience de soins de santé personnalisée, axée sur le patient, en mettant l'accent sur la commodité, la qualité et la sécurité. Nous visons à transformer la manière dont les gens accèdent aux soins médicaux, en offrant des solutions innovantes qui répondent aux besoins de chacun.</p>
+            <h6>Notre vision</h6>
+            <p>Nous aspirons à devenir le leader de la révolution numérique dans le domaine des soins de santé, en offrant une plateforme intégrée qui relie les patients, les médecins et les autres professionnels de la santé. Notre vision est de créer un écosystème de santé connecté où chaque individu peut prendre le contrôle de sa propre santé.</p>
+        </div>
     </div>
-  </section>
+    
+    </div>
+  </div>
+</section>
 
+<!-- Promo Video -->
 <section class="promo-video">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="block text-center">
-            <h6>About Our Hospital</h6>
-            <h1>The World <br>
-              Class Hospitality
-            </h1>
-            <a data-fancybox
-              href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"><i class="fas fa-play"></i></a>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="block text-center">
+          <h1>Suivez cette vidéo explicative<br>
+          </h1>
+          <a data-fancybox
+            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"><i class="fas fa-play"></i></a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="gallery bg-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-title text-center">
-            <h3>Collected Shots
-              <span>of Our Hospital</span>
-            </h3>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overv-
-              <br>iews. Iterative approaches to corporate strategy...</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img loading="lazy" src="Frontend/images/gallery/gallery-01.jpg" class="img-fluid" alt="gallery-image">
-            <a data-fancybox="images" href="images/gallery/gallery-01.jpg"></a>
-            <h3>Facility 01</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img loading="lazy" src="Frontend/images/gallery/gallery-02.jpg" class="img-fluid" alt="gallery-image">
-            <a data-fancybox="images" href="images/gallery/gallery-02.jpg"></a>
-            <h3>Facility 02</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img loading="lazy" src="Frontend/images/gallery/gallery-03.jpg" class="img-fluid" alt="gallery-image">
-            <a data-fancybox="images" href="images/gallery/gallery-03.jpg"></a>
-            <h3>Facility 03</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img loading="lazy" src="Frontend/images/gallery/gallery-04.jpg" class="img-fluid" alt="gallery-image">
-            <a data-fancybox="images" href="images/gallery/gallery-04.jpg"></a>
-            <h3>Facility 04</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img loading="lazy" src="Frontend/images/gallery/gallery-05.jpg" class="img-fluid" alt="gallery-image">
-            <a data-fancybox="images" href="images/gallery/gallery-05.jpg"></a>
-            <h3>Facility 05</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img loading="lazy" src="Frontend/images/gallery/gallery-06.jpg" class="img-fluid" alt="gallery-image">
-            <a data-fancybox="images" href="images/gallery/gallery-06.jpg"></a>
-            <h3>Facility 06</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Contact Section -->
-  <section class="appoinment-section section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="accordion-section">
-    <div class="section-title">
-      <h3>FAQ</h3>
-    </div>
-    <div class="accordion-holder">
-      <div class="accordion" id="accordionGroup" role="tablist" aria-multiselectable="true">
-        <div class="card">
-          <div class="card-header" role="tab" id="headingOne">
-            <h4 class="card-title">
-              <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Why Should I choose Medical Health
-              </a>
-            </h4>
-          </div>
-          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionGroup">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-              officia aute,
-              non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-              tempor,
-              sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-              vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-              haven't
-              heard of them accusamus labore sustainable VHS.
+<section class="team-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <h3>Notre
+              <span>direction</span>
+          </h3>
+          <p>Découvrez l'équipe de direction qui guide notre entreprise avec vision et leadership.
+              <br>Nos dirigeants apportent leur expertise et leur stratégie pour atteindre nos objectifs.</p>
+      </div>      
+      
+        <!-- Nav tabs -->
+
+        <div class="tab-content" id="teamTab">
+          <!--Start single tab content-->
+          <div class="team-members tab-pane fade show active" id="doctor">
+            <div class="row justify-content-center"> <!-- Ajout de la classe justify-content-center -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-person text-center">
+                        <img loading="lazy" src="{{asset('Frontend/images/about/ceo.jpeg')}}" class="img-fluid" alt="team">
+                        <h6>Rodolphe BLON</h6>
+                        <p>CEO</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingTwo">
-            <h4 class="card-title">
-              <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo"
-                aria-expanded="false" aria-controls="collapseTwo">
-                What are the Centre’s visiting hours?
-              </a>
-            </h4>
-          </div>
-          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionGroup">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-              officia aute,
-              non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-              tempor,
-              sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-              vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-              haven't
-              heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingThree">
-            <h4 class="card-title">
-              <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree"
-                aria-expanded="false" aria-controls="collapseThree">
-                How many visitors are allowed?
-              </a>
-            </h4>
-          </div>
-          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionGroup">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-              officia aute,
-              non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-              tempor,
-              sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-              vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-              haven't
-              heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
+        
+          <!--End single tab content-->
+
+          <!--End single tab content-->
         </div>
       </div>
     </div>
   </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="contact-area pl-0 pl-lg-5">
-    <div class="section-title">
-      <h3>Request
-        <span>Appointment</span>
+</section>
+<svg viewBox="0 0 1595 258" preserveAspectRatio="none">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <path d="M444.340642,154 C694.722027,154 1052.66439,33 1277.90476,14.9967149 C1428.06501,2.99452485 1533.61546,-1.31308158 1594.55611,2.07389562 L1594.55611,257.183313 L0,257.183313 L0,42.6646632 C129.306171,116.888221 277.419718,154 444.340642,154 Z" fill="#48bdc5"></path>
+  </g>
+</svg>
+
+
+<style>
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 80%;
+ /* Add spacing between team members */
+}
+
+.team-member .image-container {
+  width: 100%;
+  max-width: 300px; 
+  height: 400px;
+  overflow: hidden;
+/* Add spacing below the image */
+}
+
+/* .team-member .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+} */
+
+/* .team-member .contents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.team-member .contents h4 {
+  /* margin-bottom: 15px; */
+}
+
+.team-member .contents p {
+  /* flex-grow: 1; */
+  /* margin-bottom: 20px; */
+}
+
+.team-member .contents .btn {
+  /* margin-top: 20px; */
+}
+
+/* .styled-pagination {
+  text-align: center;
+  margin-top: 20px;
+} */
+
+/* .styled-pagination ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+} */
+
+/* .styled-pagination ul li {
+  margin: 0 5px;
+}
+
+.styled-pagination ul li a {
+  display: block;
+  padding: 10px 15px;
+  background: #48bdc5;
+  color: #fff;
+  border-radius: 5px;
+} */
+
+/* .styled-pagination ul li a:hover {
+  background: #37a2ac;
+}
+
+.styled-pagination ul li a.active {
+  background: #2a898f;
+} */
+
+</style>
+<section class="team-section section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>Nos
+        <span>experts</span>
       </h3>
+      <p class="mb-0">Découvrez notre équipe de médecins spécialisés, dédiée à fournir des soins de santé de haute qualité.
+        <br>Nos experts sont là pour répondre à tous vos besoins médicaux avec compassion et professionnalisme.</p>
     </div>
-    <form name="contact_form" class="default-form contact-form" action="!#" method="post">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <input class="form-control" type="text" name="Name" placeholder="Name" required="">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="team-member">
+          <div class="image-container">
+            <img loading="lazy" src="{{asset('Frontend/images/about/10.jpg')}}" alt="Dr. Robert Barrethion" class="img-fluid">
           </div>
-          <div class="form-group">
-            <input class="form-control" type="email" name="Email" placeholder="Email" required="">
-          </div>
-          <div class="form-group">
-            <select class="form-control" name="subject">
-              <option>Departments</option>
-              <option>Diagnostic</option>
-              <option>Psychological</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <input class="form-control" type="text" name="Phone" placeholder="Phone" required="">
-          </div>
-          <div class="form-group">
-            <input class="form-control" type="text" name="Date" placeholder="Date" required="" id="datepicker" autocomplete="off">
-            <i class="fa fa-calendar" aria-hidden="true"></i>
-          </div>
-          <div class="form-group">
-            <select class="form-control" name="subject">
-              <option>Doctor</option>
-              <option>Diagnostic</option>
-              <option>Psychological</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="form-group">
-            <textarea class="form-control" name="form_message" placeholder="Your Message" required=""></textarea>
-          </div>
-          <div class="form-group text-center">
-            <button type="submit" class="btn-style-one">submit now</button>
+          <div class="contents text-center">
+            <h4>Dr. Robert Barrethion</h4>
+            <p>Spécialiste en orthopédie, le Dr. Barrethion a plus de 20 ans d'expérience dans le traitement des troubles musculo-squelettiques.</p>
+            <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
           </div>
         </div>
       </div>
-    </form>
+      <div class="col-lg-4 col-md-6">
+        <div class="team-member">
+          <div class="image-container">
+            <img loading="lazy" src="{{asset('Frontend/images/about/10.jpg')}}" alt="Dr. Marry Lou" class="img-fluid">
+          </div>
+          <div class="contents text-center">
+            <h4>Dr. Marry Lou</h4>
+            <p>Experte en pédiatrie, le Dr. Lou est dévouée à fournir des soins complets et attentifs à vos enfants.</p>
+            <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="team-member">
+          <div class="image-container">
+            <img loading="lazy" src="{{asset('Frontend/images/about/12.jpg')}}" alt="Dr. Sansa Stark" class="img-fluid">
+          </div>
+          <div class="contents text-center">
+            <h4>Dr. Sansa Stark</h4>
+            <p>Dermatologue renommée, le Dr. Stark se spécialise dans le traitement des maladies de la peau et des troubles esthétiques.</p>
+            <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  <div class="styled-pagination">
+          <ul>
+            <li><a class="prev" href="blog.html"><span class="fas fa-angle-left" aria-hidden="true"></span></a></li>
+            <li><a href="blog.html" class="active">1</a></li>
+            <li><a href="blog.html">2</a></li>
+            <li><a href="blog.html">3</a></li>
+            <li><a class="next" href="blog.html"><span class="fas fa-angle-right" aria-hidden="true"></span></a></li>
+          </ul>
+        </div>
   </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+</section>
+
+
+

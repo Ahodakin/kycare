@@ -8,4 +8,5 @@
 @include('partials._page-title', ["title" => "A propos"])
 @include('Partials._about')
 
+
 @endsection

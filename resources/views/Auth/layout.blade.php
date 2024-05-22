@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
+<head>
 
     <!-- ** Basic Page Needs ** -->
     <meta charset="utf-8">
@@ -16,7 +15,7 @@
 
     <!-- theme meta -->
     <meta name="theme-name" content="medic" />
-    
+
     <!-- ** Plugins Needed for the Project ** -->
     <!-- bootstrap -->
     <link rel="stylesheet" href="{{asset('Frontend/plugins/bootstrap/bootstrap.min.css')}}">
@@ -33,58 +32,58 @@
     <link rel="stylesheet" href="{{asset('Frontend/plugins/jquery-ui/jquery-ui.css')}}">
     <!-- timePicker -->
     <link rel="stylesheet" href="{{asset('Frontend/plugins/timePicker/timePicker.css')}}">
-    
+
     <!-- Stylesheets -->
     <link href="{{asset('Frontend/css/style.css')}}" rel="stylesheet">
-    
+
     <!--Favicon-->
-    <link rel="icon" href="{{asset('Frontend/images/favicon.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('Frontend/images/fav.jpeg') }}" type="image/jpeg">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <div class="page-wrapper">
+    <div class="page-wrapper">
 
-            @yield('content')
+        @yield('content')
 
 
 
-            <!-- scroll-to-top -->
-            <div id="back-to-top" class="back-to-top">
-                <i class="fa fa-angle-up"></i>
-            </div>
-
+        <!-- scroll-to-top -->
+        <div id="back-to-top" class="back-to-top">
+            <i class="fa fa-angle-up"></i>
         </div>
-        <!--End pagewrapper-->
+
+    </div>
+    <!--End pagewrapper-->
 
 
-        <!--Scroll to top-->
-        <div class="scroll-to-top scroll-to-target" data-target=".header-top">
-            <span class="icon fa fa-angle-up"></span>
-        </div>
-        <!-- jquery -->
-        <script src="{{asset('Frontend/plugins/jquery.min.js')}}"></script>
-        <!-- bootstrap -->
-        <script src="{{asset('Frontend/plugins/bootstrap/bootstrap.min.js')}}"></script>
-        <!-- Slick Slider -->
-        <script src="{{asset('Frontend/plugins/slick/slick.min.js')}}"></script>
-        <script src="{{asset('Frontend/plugins/slick/slick-animation.min.js')}}"></script>
-        <!-- FancyBox -->
-        <script src="{{asset('Frontend/plugins/fancybox/jquery.fancybox.min.js')}}" defer></script>
-        <!-- Google Map -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
-        <script src="{{'Frontend/plugins/google-map/gmap.js'}}" defer></script>
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target=".header-top">
+        <span class="icon fa fa-angle-up"></span>
+    </div>
+    <!-- jquery -->
+    <script src="{{asset('Frontend/plugins/jquery.min.js')}}"></script>
+    <!-- bootstrap -->
+    <script src="{{asset('Frontend/plugins/bootstrap/bootstrap.min.js')}}"></script>
+    <!-- Slick Slider -->
+    <script src="{{asset('Frontend/plugins/slick/slick.min.js')}}"></script>
+    <script src="{{asset('Frontend/plugins/slick/slick-animation.min.js')}}"></script>
+    <!-- FancyBox -->
+    <script src="{{asset('Frontend/plugins/fancybox/jquery.fancybox.min.js')}}" defer></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+    <script src="{{'Frontend/plugins/google-map/gmap.js'}}" defer></script>
 
-        <!-- jquery-ui -->
-        <script src="{{asset('Frontend/plugins/jquery-ui/jquery-ui.js')}}" defer></script>
-        <!-- timePicker -->
-        <script src="{{asset('Frontend/plugins/timePicker/timePicker.js')}}" defer></script>
+    <!-- jquery-ui -->
+    <script src="{{asset('Frontend/plugins/jquery-ui/jquery-ui.js')}}" defer></script>
+    <!-- timePicker -->
+    <script src="{{asset('Frontend/plugins/timePicker/timePicker.js')}}" defer></script>
 
-        <!-- script js -->
-        <script src="{{asset('Frontend/js/script.js')}}"></script>
-    </body>
+    <!-- script js -->
+    <script src="{{asset('Frontend/js/script.js')}}"></script>
+</body>
 
 </html>

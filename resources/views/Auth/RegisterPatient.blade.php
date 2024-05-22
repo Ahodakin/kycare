@@ -1,22 +1,23 @@
-
-@extends('Auth.layout')
+@extends('Auth/layout')
 
 @section('title', 'Inscription Praticien')
 
 @section('content')
 
-@include('Auth.Nav')
-
+{{-- @include('Auth/Nav') --}}
+@include('Layouts.header')
 <style>
     body {
         background-image: url('Frontend/images/slider/slider-bg-1.jpg');
         background-position: center;
         height: 100vh;
         margin: 0;
+        padding: 0;
         background-repeat: no-repeat;
 
         /* Supprimer les marges par défaut du corps */
     }
+
 
     .section-container {
         display: flex;
@@ -60,7 +61,7 @@
     }
 
     .no-border {
-        border: none;
+        border: 0px;
     }
 
     .my-custom-color {
@@ -72,9 +73,36 @@
         color: black;
     }
 
+  .btn a {
+    color: #ffffff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer la décoration du lien */
+}
+
+.btn a:hover {
+    color: black;
+}
+
+    .grid-x {
+        webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+
+    }
+
+    .grid-container {
+        padding-right: 0.625rem;
+        padding-left: 2rem;
+        max-width: 75rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 </style>
 <div class="container mt-5">
-    <div class=" row section-container">
+
+    <div class="row section-container  grid-container grid-x">
         <!-- Section pour le texte de bienvenue et le bouton de connexion -->
         <div class="col-md-6  welcome-section">
             <div class="text-center mt-5">
@@ -82,9 +110,11 @@
                 <a href="{{route('Login')}}" class="btn btn-connexion mt-3">Connexion</a>
             </div>
         </div>
+
+
         <!-- Section pour le formulaire d'inscription -->
-        <div class="right-side">
-            <div class="  card inscription-section no-border">
+        <div class="right-side  ">
+            <div class="card inscription-section no-border ">
                 <!-- Ajout de la classe inscription-section -->
 
                 <div class="card-body">
@@ -118,8 +148,10 @@
                             <input type="text" id="phone_number" name="phone_number" class="form-control" placeholder="Numéro de téléphone" required>
                         </div>
 
-                        <button type="submit" class="btn  btn-block my-custom-color">S'inscrire</button>
-                    </form>
+                        <button type="submit" class="btn btn-block my-custom-color">
+                                 <a href="/mon-compte" > S'inscrire</a>
+                        </button>
+
                 </div>
             </div>
         </div>

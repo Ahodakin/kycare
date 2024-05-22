@@ -9,3 +9,10 @@
         <path d="M0,167.681016 C83.7589855,88.4411363 198.215004,48.8211964 343.368056,48.8211964 C561.097633,48.8211964 647.009129,83.8202116 856.227707,83.8202116 C1065.44628,83.8202116 1204.25476,-19.7846831 1466.02386,3.3755845 C1506.43702,6.73053323 1549.42907,15.1982261 1595,28.7786632 L1595,213 L0,213 L0,167.681016 Z" id="background-footer" fill="#48bdc5"></path>
     </g>
 </svg>
+<svg class="fancy-separator-top" viewBox="0 0 1440 157" preserveAspectRatio="none">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(0.000000, -2018.000000)" fill="#FFFFFF">
+                    <polygon id="Path-4" points="0 2174.79212 1440 2093 1440 2018 0 2028"></polygon>
+                </g>
+            </g>
+        </svg>

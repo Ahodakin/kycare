@@ -1,67 +1,60 @@
-
-@extends('Auth.layout')
+@extends('Layouts.app')
 
 @section('title', 'Connexion')
 
 @section('content')
 
-@include('Auth.Nav')
-<style>
-    body {
-        background-image: url('Frontend/images/slider/slider-bg-1.jpg');
-        background-position: center;
-        height: 100vh;
-        background-repeat: no-repeat;
-    }
+@include('Layouts.header')
 
-    .login-form {
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+<section class="section contact">
+    <style>
+          body {
+            background-color: #f5f5f5;
 
-    .my-custom-color {
-        background-color: #48bdc5;
-        color: white;
-    }
-
-    .my-custom {
-        color: #48bdc5;
-    }
-
-</style>
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="login-form">
-                    <h2 class="text-center mb-4" style="color:black;" >Connexion</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Email :</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="password">Mot de passe :</label>
-                            <input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe" required>
-                        </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="btn my-custom-color btn-block">Connexion</button>
-                        </div>
-                        <div class="form-group text-right">
-                            <a href="#" class="text-red my-custom">Mot de passe oublié</a>
-                        </div>
-                    </form>
-                    <p class="text-center ">Vous n'avez pas de compte ? <a href="{{route('choix')}}" class="my-custom">Inscrivez-vous ici</a></p>
-                </div>
+             }
+    </style>
+    <!-- container start -->
+    <div class="container" style="background-color: #fff;">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 d-flex align-items-center justify-content-center" style="background-color: #48bdc5;">
+            <!-- Mot de bienvenue -->
+            <div class="welcome-message text-center">
+                <h2>Accès à votre compte KYcare</h2>  
             </div>
         </div>
+          
+        <div class="col-lg-8 col-md-7">
+            <div class="text-center mx-auto">
+                <h4 style="color: #48bdc5;">Se connecter sur KYcare</h4>
+            </div><br>
+            
+          <div class="contact-form">
+            <!-- contact form start -->
+            <h5>Vos identifiants de connexion</h5><br>
+            <form action="!#" class="row">
+
+              <br><div class="col-lg-12">
+                <input type="email" class="form-control main" placeholder="Email" required>
+              </div>
+
+              <div class="col-lg-12">
+                <input type="password" id="password" name="password" class="form-control main" placeholder="Mot de passe" required>    
+              </div>
+
+              <div class="col-lg-12 ">
+                <button type="submit" class="form-control main btn-style-one" style="font-size: 25px;">Se connecter</button>
+              </div>
+            
+              
+            <div class="btn-contain" >
+                <a href="#" style="margin-left: 20px; font-size: 15px;">Mot de passe oublié ?</a>
+            </div>
+            </form>
+            <!-- contact form end -->
+          </div>
+        </div>
+      </div>
     </div>
 
+</section>
 @endsection
-
-
-
-

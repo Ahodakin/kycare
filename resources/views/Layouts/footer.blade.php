@@ -1,5 +1,10 @@
   <!--footer-main-->
-  <footer class="footer-main">
+  {{-- <svg viewBox="0 0 1595 213" preserveAspectRatio="none">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,167.681016 C83.7589855,88.4411363 198.215004,48.8211964 343.368056,48.8211964 C561.097633,48.8211964 647.009129,83.8202116 856.227707,83.8202116 C1065.44628,83.8202116 1204.25476,-19.7846831 1466.02386,3.3755845 C1506.43702,6.73053323 1549.42907,15.1982261 1595,28.7786632 L1595,213 L0,213 L0,167.681016 Z" id="background-footer" fill="#132646"></path>
+    </g>
+</svg> --}}
+  <footer class="footer-main"> 
       <div class="footer-top">
           <div class="container">
               <div class="row justify-content-between">
@@ -30,10 +35,10 @@
                               </li>
                           </ul>
                           <ul class="list-inline social-icons">
-                              <li class="list-inline-item"><a href="https://facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                              <li class="list-inline-item"><a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-                              <li class="list-inline-item"><a href="https://instagram.com/themefisher" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-                              <li class="list-inline-item"><a href="https://github.com/themefisher" aria-label="github"><i class="fab fa-github"></i></a></li>
+                              <li class="list-inline-item"><a href="" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                              <li class="list-inline-item"><a href="" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+                              <li class="list-inline-item"><a href="" aria-label="tiktok"><i class="fab fa-tiktok"></i></a></li>
+                              <li class="list-inline-item"><a href="" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li>
                           </ul>
                       </div>
                   </div>

@@ -158,63 +158,44 @@
 </style>
 <section class="team-section section">
   <div class="container">
-    <div class="section-title text-center">
-      <h3>Nos
-        <span>experts</span>
-      </h3>
-      <p class="mb-0">Découvrez notre équipe de médecins spécialisés, dédiée à fournir des soins de santé de haute qualité.
-        <br>Nos experts sont là pour répondre à tous vos besoins médicaux avec compassion et professionnalisme.</p>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-4 col-md-6">
-        <div class="team-member">
-          <div class="image-container">
-            <img loading="lazy" src="{{asset('Frontend/images/about/10.jpg')}}" alt="Dr. Robert Barrethion" class="img-fluid">
-          </div>
-          <div class="contents text-center">
-            <h4>Dr. Robert Barrethion</h4>
-            <p>Spécialiste en orthopédie, le Dr. Barrethion a plus de 20 ans d'expérience dans le traitement des troubles musculo-squelettiques.</p>
-            <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
-          </div>
-        </div>
+      <div class="section-title text-center">
+          <h3>Nos
+              <span>experts</span>
+          </h3>
+          <p class="mb-0">Découvrez notre équipe de médecins spécialisés, dédiée à fournir des soins de santé de haute qualité.
+              <br>Nos experts sont là pour répondre à tous vos besoins médicaux avec compassion et professionnalisme.</p>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="team-member">
-          <div class="image-container">
-            <img loading="lazy" src="{{asset('Frontend/images/about/10.jpg')}}" alt="Dr. Marry Lou" class="img-fluid">
+      <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+              @foreach($users as $user)
+                  @if($user->role === 'professional')
+                      <div class="team-member">
+                          <div class="image-container">
+                              <img loading="lazy" src="{{ asset('storage/' . $user->profile_picture) }}" alt="{{ $user->nom }}" class="img-fluid">
+                          </div>
+                          <div class="contents text-center">
+                              <h4>Dr. {{ $user->nom }} {{ $user->prenom }}</h4>
+                              <p>{{ $user->specialite->name }}</p>
+                              <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
+                          </div>
+                      </div>
+                  @endif
+              @endforeach
           </div>
-          <div class="contents text-center">
-            <h4>Dr. Marry Lou</h4>
-            <p>Experte en pédiatrie, le Dr. Lou est dévouée à fournir des soins complets et attentifs à vos enfants.</p>
-            <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
-          </div>
-        </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="team-member">
-          <div class="image-container">
-            <img loading="lazy" src="{{asset('Frontend/images/about/12.jpg')}}" alt="Dr. Sansa Stark" class="img-fluid">
-          </div>
-          <div class="contents text-center">
-            <h4>Dr. Sansa Stark</h4>
-            <p>Dermatologue renommée, le Dr. Stark se spécialise dans le traitement des maladies de la peau et des troubles esthétiques.</p>
-            <a href="appointment.html" class="btn btn-main">Prendre un rendez-vous</a>
-          </div>
-        </div>
-      </div>
-     
-    </div>
-  <div class="styled-pagination">
+      <div id="calendar"></div> <!-- Déplacez le div du calendrier en dehors de la boucle foreach -->
+      <div class="styled-pagination">
           <ul>
-            <li><a class="prev" href="blog.html"><span class="fas fa-angle-left" aria-hidden="true"></span></a></li>
-            <li><a href="blog.html" class="active">1</a></li>
-            <li><a href="blog.html">2</a></li>
-            <li><a href="blog.html">3</a></li>
-            <li><a class="next" href="blog.html"><span class="fas fa-angle-right" aria-hidden="true"></span></a></li>
+              <li><a class="prev" href="blog.html"><span class="fas fa-angle-left" aria-hidden="true"></span></a></li>
+              <li><a href="blog.html" class="active">1</a></li>
+              <li><a href="blog.html">2</a></li>
+              <li><a href="blog.html">3</a></li>
+              <li><a class="next" href="blog.html"><span class="fas fa-angle-right" aria-hidden="true"></span></a></li>
           </ul>
-        </div>
+      </div>
   </div>
 </section>
+
 
 
 

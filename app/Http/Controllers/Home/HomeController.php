@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Models\User;
+use App\Models\Availability;
 class HomeController extends Controller
 {
    public function index()
@@ -14,7 +15,9 @@ class HomeController extends Controller
 
    public function about()
    {
-      return view('Home.about');
+      $users = User::all();
+      $availabilities = Availability::all();
+      return view('Home.about', compact('users','availabilities'));
    }
 
    public function service()

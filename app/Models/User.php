@@ -17,7 +17,13 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'nom',
+        'prenom',
+        'phone_number',
+        'role',
+        'date_naissance',
+        'identification_unique',
+        'specialite_id',
         'email',
         'password',
     ];
@@ -43,5 +49,10 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function specialite()
+    {
+        return $this->belongsTo(Specialite::class, 'specialite_id');
     }
 }

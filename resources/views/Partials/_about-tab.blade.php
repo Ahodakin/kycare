@@ -18,8 +18,6 @@
                                             <i class="fas fa-calendar-alt fa-3x" style="color: #48bdc5"></i>
                                         </a>
                                     </figure>
-
-
                                 </div>
                                 <h3 class="mb-2">Prendre un rendez-vous</h3>
                                 <p>Pour prendre un rendez-vous sur Kycare, suivez ces étapes simples :</p>

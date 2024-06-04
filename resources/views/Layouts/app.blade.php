@@ -44,6 +44,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <link href="{{ asset('fullcalendar/main.css') }}" rel="stylesheet">
+
+
     </head>
 
     <body>
@@ -67,6 +70,7 @@
         <div class="scroll-to-top scroll-to-target" data-target=".header-top">
             <span class="icon fa fa-angle-up"></span>
         </div>
+      
         <!-- jquery -->
         <script src="{{asset('Frontend/plugins/jquery.min.js')}}"></script>
         <!-- bootstrap -->
